@@ -97,6 +97,8 @@ $questions = $conferenceData['questions'] ?? [];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALLS - SIDEPANEL</title>
     <style>
+        /* import tajawal font */
+            
         :root {
             --background-color: #121212;
             --surface-color: #1e1e1e;
@@ -109,7 +111,7 @@ $questions = $conferenceData['questions'] ?? [];
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Tajawal", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--background-color);
             color: var(--text-color);
             margin: 0;
@@ -326,8 +328,10 @@ $questions = $conferenceData['questions'] ?? [];
                 <div class="card">
                     <h3>Links & Docs</h3>
                     <ul>
-                        <li><a href="https://yc.doy.tech/" target="_blank" style="color: var(--secondary-color); text-decoration: none;">Tree of Values</a></li>
-                        <li><a href="https://robo.doy.tech/" target="_blank" style="color: var(--secondary-color); text-decoration: none;">Robo Zombie</a></li>
+                        <?php
+                        // Pushed or Saved Links to Pages, Files or Videos
+
+                        ?>
                     </ul>
                 </div>
                 <div class=" card">
